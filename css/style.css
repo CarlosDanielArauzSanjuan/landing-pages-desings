@@ -3,3 +3,83 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url(./variables.css);
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container_text{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.div_text{
+    max-width: 640px;
+    padding-top: 64px;
+    
+}
+.div_text h1{
+    font-size: 64px;
+    font-family: "Avenir-Heavy";
+}
+.div_text p{
+    text-align: top;
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    padding-top: 24px;
+    padding: 10px;
+    justify-content: center;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.button a{
+    background-color: var(--negro);
+    padding: 15px 48px;
+    text-decoration: none;
+    color: var(--blanco);
+    border-radius: 15px;
+}
+
+.container_img{
+    display: grid;
+    grid-template-columns: repeat(4, 0.2fr); 
+    gap: 6px;
+    justify-content: center;
+    padding-top: 46px;
+    overflow-x: hidden;
+}
+.container_img img{
+    padding: 4px, 4px;
+    margin: 4px;
+}
+
+@media (max-width: 1024px) {
+    .container_img{
+        display: grid;
+        grid-template-columns: repeat(2, 0.2fr); 
+        gap: 6px;
+        justify-content: center;
+        padding-top: 46px;
+    }
+}
+@media (max-width: 576px) {
+    .container_img{
+        display: grid;
+        grid-template-columns: repeat(1, 0.2fr); 
+        gap: 6px;
+        justify-content: center;
+        padding-top: 46px;
+    }
+}
