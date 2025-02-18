@@ -1,0 +1,189 @@
+@import url(/css/page17-variables.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container_main{
+  background: #f2f2f2;
+  flex-shrink: 0;
+  height: 1475px;
+  position: relative;
+  overflow: hidden;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 358px;
+  top: 64px;
+}
+.love {
+  color: #252525;
+  text-align: left;
+  font-family: "Poppins-SemiBold";
+  font-size: 56px;
+  line-height: 84px;
+  font-weight: 600;
+  position: relative;
+}
+.lorem{
+  color: rgba(37, 37, 37, 0.8);
+  text-align: center;
+  font-family: "Avenir-Roman";
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  width: 689px;
+}
+.button {
+  background: #252525;
+  border-radius: 36px;
+  padding: 24px 48px 24px 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.explore{
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular";
+  font-size: 24px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.image {
+  border-radius: 24px;
+  width: 1312px;
+  height: 526px;
+  position: absolute;
+  left: 64px;
+  top: 504px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.list {
+  background: #ffffff;
+  border-radius: 48px;
+  padding: 40px 64px 40px 64px;
+  display: flex;
+  flex-direction: row;
+  gap: 72px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 196px;
+  top: 417px;
+}
+.frame1 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.title1 {
+  color: #252525;
+  text-align: left;
+  font-family: "Avenir-Heavy";
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.rectangle16 {
+  background: #252525;
+  flex-shrink: 0;
+  width: 66px;
+  height: 4px;
+  position: relative;
+}
+.lorem_short {
+  color: rgba(37, 37, 37, 0.7);
+  text-align: left;
+  font-family: "Avenir-Roman";
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  width: 176px;
+}
+.frame2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame3{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame4 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.img_bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 64px;
+  top: 1070px;
+}
+.frame14243 {
+  background: linear-gradient(to left, #ffffff, #ffffff);
+  border-radius: 32px;
+  flex-shrink: 0;
+  width: 411px;
+  height: 344px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frame14244 {
+  background: linear-gradient(to left, #ffffff, #ffffff);
+  border-radius: 32px;
+  flex-shrink: 0;
+  width: 411px;
+  height: 344px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frame14245 {
+  background: linear-gradient(to left, #ffffff, #ffffff);
+  border-radius: 32px;
+  flex-shrink: 0;
+  width: 411px;
+  height: 344px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+
