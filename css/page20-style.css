@@ -1,9 +1,10 @@
+@import url(variables.css);
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
 
+}
 .main {
   background: #ffffff;
   flex-shrink: 0;
@@ -24,7 +25,7 @@
 .your-coffee{
   color: #363031;
   text-align: left;
-  font-family: "PlayfairDisplay-Bold", sans-serif;
+  font-family: "PlayfairDisplay-Bold";
   font-size: 64px;
   line-height: 80px;
   font-weight: 700;
@@ -34,7 +35,7 @@
 .lorem{
   color: #363031;
   text-align: left;
-  font-family: "PlayfairDisplay-Regular", sans-serif;
+  font-family: "PlayfairDisplay-Regular";
   font-size: 24px;
   font-weight: 400;
   position: relative;
@@ -56,7 +57,7 @@
 .button {
   color: #ffffff;
   text-align: left;
-  font-family: "Avenir-Roman", sans-serif;
+  font-family: "Avenir-Roman";
   font-size: 24px;
   line-height: 18px;
   font-weight: 400;
@@ -102,7 +103,7 @@
 .et-integer-facilisi-eget {
   color: #ffffff;
   text-align: left;
-  font-family: "Poppins-Light", sans-serif;
+  font-family: "Poppins-Light";
   font-size: 16px;
   font-weight: 300;
   position: relative;
@@ -243,7 +244,7 @@
 ._190 {
   color: #363031;
   text-align: left;
-  font-family: "Poppins-SemiBold", sans-serif;
+  font-family: "Poppins-SemiBold";
   font-size: 32px;
   font-weight: 600;
   position: relative;
@@ -251,7 +252,7 @@
 .consectetur {
   color: #363031;
   text-align: center;
-  font-family: "Poppins-Regular", sans-serif;
+  font-family: "Poppins-Regular";
   font-size: 16px;
   font-weight: 400;
   position: relative;
@@ -277,7 +278,7 @@
 ._123-k {
   color: #363031;
   text-align: left;
-  font-family: "Poppins-SemiBold", sans-serif;
+  font-family: "Poppins-SemiBold";
   font-size: 32px;
   font-weight: 600;
   position: relative;
@@ -302,7 +303,7 @@
 ._58 {
   color: #363031;
   text-align: left;
-  font-family: "Poppins-SemiBold", sans-serif;
+  font-family: "Poppins-SemiBold";
   font-size: 32px;
   font-weight: 600;
   position: relative;
