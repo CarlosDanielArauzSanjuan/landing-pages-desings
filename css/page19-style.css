@@ -35,7 +35,7 @@
 .a-place-you-eat-healthy {
   color: #252525;
   text-align: left;
-  font-family: "Avenir-Heavy", sans-serif;
+  font-family: "Avenir-Heavy";
   font-size: 72px;
   line-height: 94px;
   font-weight: 400;
@@ -45,7 +45,7 @@
 .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-faucibus-in-libero-risus-semper-habitant-arcu-eget-et-integer-facilisi-eget-lorem-ipsum-dolor {
   color: #252525;
   text-align: left;
-  font-family: "Avenir-Roman", sans-serif;
+  font-family: "Avenir-Roman";
   font-size: 24px;
   font-weight: 400;
   position: relative;
@@ -67,7 +67,7 @@
 .contact-us {
   color: #ffffff;
   text-align: left;
-  font-family: "Avenir-Roman", sans-serif;
+  font-family: "Avenir-Roman";
   font-size: 24px;
   line-height: 18px;
   font-weight: 400;
@@ -161,7 +161,7 @@
 .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-faucibus-in-libero-risus-semper {
   color: rgba(37, 37, 37, 0.8);
   text-align: left;
-  font-family: "Avenir-Roman", sans-serif;
+  font-family: "Avenir-Roman";
   font-size: 22px;
   font-weight: 400;
   position: relative;
