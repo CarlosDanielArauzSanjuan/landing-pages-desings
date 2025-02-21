@@ -8,6 +8,10 @@ body {
     width: 1440px;
     margin: 0 auto;
     background: linear-gradient(177deg, #080a13, #151017); 
+   
+}
+.imagen{
+    border-style:hidden;
 }
 main {
     padding: 60px;
