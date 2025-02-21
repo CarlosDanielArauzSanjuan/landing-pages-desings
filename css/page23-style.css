@@ -11,7 +11,7 @@ body {
    
 }
 .imagen{
-    border-style:hidden;
+    border-bottom-right-radius: 18px;
 }
 main {
     padding: 60px;
