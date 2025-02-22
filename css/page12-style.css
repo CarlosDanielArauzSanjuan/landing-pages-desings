@@ -1,0 +1,94 @@
+@import url(page12-variables.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1440px;
+    margin: auto;
+    height: 1024px ;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: flex-end;
+    padding-top: 91px;
+}
+
+main img {
+    display: flex;    
+}
+.principal{
+    position: absolute;
+    z-index: -1;
+} 
+.decoration {
+    padding-right: 20px;
+}
+
+.texts {
+    width: 519px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: absolute;
+    left: 10svw;
+
+}
+
+.texts h1{
+    font-family: "Avenir-Heavy";
+    font-size: 72px;
+    color: var(--color-2);
+}
+
+.texts p{
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-3);
+    
+}
+
+.texts a{
+    width: 182px;
+    height: 66px;
+    font-size: 24px;
+    font-family: "Poppins-Regular";
+    background-color: var(--color-2);
+    color: var(--color-4);
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.botton{
+    width: 668px;
+    padding: 16px 24px;
+    margin-top: -80px;
+
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botton p{
+    font-family: "Avenir-Roman";
+    font-size: 22px;
+    color: var(--color-3);
+}
+

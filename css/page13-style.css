@@ -1,0 +1,181 @@
+@import url(page13-variables.css);
+* {
+    box-sizing: border-box;
+  }
+  .main_container {
+    background: #ffffff;
+    flex-shrink: 0;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+  }
+  .img_bottom{
+    width: 412px;
+    height: 528px;
+    position: absolute;
+    left: 64px;
+    top: 432px;
+    overflow: visible;
+    object-fit: cover;
+  }
+  .img_top {
+    width: 412px;
+    height: 528px;
+    position: absolute;
+    left: 964px;
+    top: 64px;
+    overflow: visible;
+    object-fit: cover;
+  }
+  .content {
+    width: 637px;
+    height: 692px;
+    position: absolute;
+    left: 401px;
+    top: 182px;
+  }
+  .gradient{
+    width: 446px;
+    height: 711px;
+    position: absolute;
+    left: 95px;
+    top: 0px;
+    filter: blur(82px);
+    object-fit: cover;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0px;
+    top: 49px;
+  }
+  .design {
+    color: #252525;
+    text-align: center;
+    font-family: "Times-Regular";
+    font-size: 112px;
+    line-height: 108px;
+    font-weight: 400;
+    position: relative;
+    width: 637px;
+  }
+  .lorem{
+    color: rgba(37, 37, 37, 0.8);
+    text-align: center;
+    font-family: "Times-Regular";
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    position: relative;
+    width: 306px;
+  }
+  .button {
+    background: #252525;
+    border-radius: 36px;
+    padding: 24px 48px 24px 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .explore{
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 400;
+    position: relative;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 64px;
+    top: 99px;
+  }
+  .num {
+    color: rgba(37, 37, 37, 0.45);
+    text-align: left;
+    font-family: "Times-Bold";
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    position: relative;
+    width: 434px;
+  }
+  .lorem2{
+    color: rgba(37, 37, 37, 0.8);
+    text-align: left;
+    font-family: "Times-Regular";
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    position: relative;
+    width: 434px;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 942px;
+    top: 812px;
+  }
+  .num2 {
+    color: rgba(37, 37, 37, 0.45);
+    text-align: left;
+    font-family: "Times-Bold";
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    position: relative;
+    width: 434px;
+  }
+  .party {
+    width: 174px;
+    height: 173.51px;
+    position: absolute;
+    left: 1135px;
+    top: 647px;
+    overflow: visible;
+  }
+  .explosion {
+    width: 179.91px;
+    height: 176.57px;
+    position: absolute;
+    left: 293.46px;
+    top: 256.04px;
+    transform: translate(-192.28px, -12.54px);
+    overflow: visible;
+  }
+  .star {
+    width: 191px;
+    height: 242px;
+    position: absolute;
+    left: 921px;
+    top: 535px;
+    overflow: visible;
+  }
+  .star2 {
+    width: 255px;
+    height: 320px;
+    position: absolute;
+    left: 311px;
+    top: 237px;
+    overflow: visible;
+  }
+  

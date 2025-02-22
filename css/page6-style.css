@@ -1,0 +1,142 @@
+@import url(page6-variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1440px;
+    height: 933px;
+    justify-self: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.section_1{
+    height: 869.14px;
+    width: 717px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 64.75px;
+    padding-left: 64.75px;
+
+}
+
+.circle {
+    display: flex;
+
+}
+.circle img{
+    width: 101.04px;
+    height: 101.16px;
+}
+
+/*------------------ content-----------------*/
+.content {
+    padding-left: 24px;
+    width: 653px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    margin-top:55px;
+}
+
+.content h1{
+    width: 629px;
+    height: 240px;
+    color: var(--color-4);
+    font-family: "PlayfairDisplay-Bold";
+    font-size: 64px;
+}
+
+.content p{
+    width: 629px;
+    height: 90px;
+    color: var(--color-1);
+    font-size: 24px;
+    font-family: "WorkSans-Regular";
+}
+
+
+.section_buttons {
+    width: 505px;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    font-family: "WorkSans-Medium";
+
+}
+.button1 button{
+    width: 219px;
+    height: 66px;
+    background: var(--color-4);
+    border-radius: 16px;
+    color: var(--color-3);
+    border-style: solid;
+    font-size: 24px;
+
+}
+
+.button2 button{
+    width: 254px;
+    height: 66px;
+    background: var(--color-3);
+    border-radius: 16px;
+    color: var(--color-1);
+    border-color: var(--color-1);
+    border-style: solid;
+    font-family: "WorkSans-Medium";
+    font-size: 24px;
+}
+
+.frame_img img{
+    
+    display: flex;
+    gap: 80px;
+    margin-top: 70px;
+    width: auto;
+    height: auto;
+
+}
+
+.section_2{
+    width: 635.31px;
+    height: 778.19px;
+    display: flex;
+    padding-left: 24px;
+    padding-top: 62px;
+    
+}
+
+.image_group {
+    width: 645.31px;
+    height: 778.19px;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 24px; */
+}
+.image_group img{
+    width: ;
+    height: ;
+
+}
+/*
+.tags{
+    width: 256px;
+    height: 60px;
+    background: var(--color-5);
+    border-radius: 16px;
+    line-height: 60px;
+    display: flex;
+    font-family: "WorkSans-Regular";
+    font-size: 24px;
+}
+.tags a{
+    color: var(--color-3);
+}*/
+

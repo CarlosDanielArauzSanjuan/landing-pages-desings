@@ -1,0 +1,26 @@
+:root{
+    --blanco: #FFFFFF;
+    --negro: #252525;
+
+}
+
+:root {
+    --color-1: #FFFFFF;
+    --color-2: rgba(245, 245, 245, 0.485);
+    --color-3: rgb(8, 8, 8);
+    --color-4: #E5B94B;
+    --color-5: #9C2004;
+}
+
+@font-face {
+    font-family: "WorkSans-Bold";
+    src: url(../storage/font/worksans/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Light";
+    src: url(../storage/font/worksans/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/font/worksans/WorkSans-Medium.ttfq);
+}

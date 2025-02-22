@@ -1,0 +1,71 @@
+@import url(page5-variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    grid-row: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+
+.container h1{
+    width: 531px;
+    font-size: clamp(44px, 8vw, 88px); 
+    font-family: "Avenir-Heavy";
+    color: var(--color-2); 
+
+}
+.title{
+    padding-left: 64px;
+    padding-top: 64px;
+}
+
+.row{
+   display: grid;
+   grid-template-columns: repeat(3, 0.8fr);
+   height: 549px;
+   width: 1312px;
+   padding-bottom: 64px;
+}
+
+.card{
+    padding-left: 64px;
+    height: 549px;
+    width: 400px;
+    text-align: left;
+    margin-top: 80px;
+}
+
+
+.card h1{
+    color: gray;
+    font-size: 32px;
+    text-align: left;
+    margin: -6px;
+    padding-bottom: 10px;
+    
+}
+.card p {
+   font-family: "Avenir-Roman";
+   font-size: 24px; 
+   width: 400px;;
+   padding-bottom: 24px;
+   
+}
+
+@media (max-width: 992px) {
+    .row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+@media (max-width : 768px){
+   .row{
+    grid-template-columns: repeat(1, 1fr);
+   }
+}
+
