@@ -1,0 +1,76 @@
+@import url(page8-variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+  background: linear-gradient(
+    -64.96deg,
+    rgba(156, 32, 4, 1) 0%,
+    rgba(171, 39, 6, 1) 100%
+  );
+  flex-shrink: 0;
+  height: 926px;
+  position: relative;
+  overflow: hidden;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 889px;
+  top: 134px;
+}
+.designs{
+  color: #ffffff;
+  text-align: left;
+  font-family: "WorkSans-Bold";
+  font-size: 88px;
+  line-height: 104px;
+  font-weight: 700;
+  position: relative;
+  width: 487px;
+}
+.lorem{
+  color: #ffffff;
+  text-align: left;
+  font-family: "WorkSans-Light";
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  position: relative;
+  width: 487px;
+}
+.button {
+  background: #e5b94b;
+  border-radius: 36px;
+  padding: 32px 56px 32px 56px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.div_button{
+  color: #080808;
+  text-align: left;
+  font-family: "WorkSans-Medium";
+  font-size: 32px;
+  line-height: 18px;
+  font-weight: 500;
+  position: relative;
+}
+.image {
+  height: auto;
+  position: absolute;
+  left: 64px;
+  top: 64px;
+  overflow: visible;
+}
