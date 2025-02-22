@@ -1,0 +1,94 @@
+@import url(/css/page4-variables.css);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.imagen{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    left: 0px;
+    top: 65px;
+}
+.imagen img{
+    width: 716px;
+    height: 932px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    height: 415px;
+    width: 500px;
+    position: absolute;
+    justify-content: right;
+    left: 828px;
+    top: 80px;
+}
+
+.text h1 {
+    font-family: "Avenir-Heavy";
+    color: var(--color-2);
+    font-size: clamp(32px, 5vw, 64px); 
+    margin-bottom: 32px;
+}
+.text h2{
+    font-size: 32px;
+    font-family: "Avenir-Heavy";
+} 
+
+.text p{
+    font-family: "Avenir-Roman";
+    color: var(--color-4);
+    font-size: clamp(18px, 3vw, 26px); 
+    margin-bottom: 32px;
+}
+
+.button {
+    display: inline-block;
+    width: 158px;
+    height: 54px;
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    background:var(--color-2);
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    margin-bottom: 88px;
+}
+.button a{
+    color: var(--color-3);
+    text-decoration: none;
+}
+
+.text2 {
+    font-family: "Avenir-Heavy";
+    color: var(--color-1);
+    font-size: 32px;
+    margin-bottom: 4px;
+    position: absolute;
+    height: 334px;
+    width: 500px;
+    left: 828px;
+    top: 583px;
+}
+
+.text2 p{
+    font-family: "Avenir-Roman";
+    color: var(--color-4);
+    font-size: 24px;
+    margin-bottom: 40px;
+}
