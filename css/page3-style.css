@@ -1,0 +1,54 @@
+@import url(variables.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    padding-top: 122px;
+    display: flex;
+    justify-content: center;
+    gap: 113px;
+
+}
+.title{
+    
+}
+.title h1{
+    font-size: 88px;
+    color: var(--color-2);
+    font-family: "Avenir-Heavy";
+
+}
+.content{
+    width: 526px;
+
+}
+.content p{
+    font-size: 26px;
+    color: #252525;
+    font-family: "Avenir-Roman"
+}
+
+.content button {
+    width: 157px;
+    height: 50px;
+    background-color: #252525;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-family: "Montserrat-Regular";
+    cursor: pointer;
+    border-radius: 16px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-top: 130px;   
+}
+image img {
+height: 732px;
+width: 1313px;
+}
