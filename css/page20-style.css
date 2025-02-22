@@ -1,0 +1,311 @@
+@import url(page20-variables.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.main {
+  background: #ffffff;
+  flex-shrink: 0;
+  height: 1345px;
+  position: relative;
+  overflow: hidden;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 126px;
+  top: 157px;
+}
+.your-coffee{
+  color: #363031;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold";
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 700;
+  position: relative;
+  width: 464px;
+}
+.lorem{
+  color: #363031;
+  text-align: left;
+  font-family: "PlayfairDisplay-Regular";
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  width: 412px;
+}
+.primary-button {
+  background: #a36a4f;
+  border-radius: 36px;
+  padding: 24px 48px 24px 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.button {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Avenir-Roman";
+  font-size: 24px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.images-bottom {
+  background: #363032;
+  width: 1440px;
+  height: 472px;
+  position: absolute;
+  left: 0px;
+  top: 809px;
+  overflow: hidden;
+}
+.frame-14283 {
+  display: flex;
+  flex-direction: row;
+  gap: 96px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: absolute;
+  left: 63px;
+  top: 138px;
+}
+.frame-14274 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-22 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 16px;
+  flex-shrink: 0;
+  width: 186px;
+  height: 246px;
+  position: relative;
+  object-fit: cover;
+}
+.eget {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Light";
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+}
+.frame-14278 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-23 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 16px;
+  flex-shrink: 0;
+  width: 186px;
+  height: 246px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-14279 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-24 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 16px;
+  flex-shrink: 0;
+  width: 186px;
+  height: 246px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-14280 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-25 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 16px;
+  flex-shrink: 0;
+  width: 186px;
+  height: 246px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-14281 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-26 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 16px;
+  flex-shrink: 0;
+  width: 186px;
+  height: 246px;
+  position: relative;
+  object-fit: cover;
+}
+.hero-images {
+  height: auto;
+  position: absolute;
+  left: 730px;
+  top: 64px;
+  overflow: visible;
+}
+.list {
+  background: #ecdac4;
+  border-radius: 80px;
+  padding: 24px 96px 24px 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 281px;
+  top: 702px;
+}
+.frame-14287 {
+  display: flex;
+  flex-direction: row;
+  gap: 88px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-14284 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-12 {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  position: static;
+}
+.ellipse-8 {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 67px;
+  top: 0px;
+}
+.coffee {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 73px;
+  top: 6px;
+  overflow: visible;
+}
+._190 {
+  color: #363031;
+  text-align: left;
+  font-family: "Poppins-SemiBold";
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+}
+.consectetur {
+  color: #363031;
+  text-align: center;
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  width: 170px;
+}
+.frame-14285 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.coffee2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 73px;
+  top: 6px;
+  overflow: visible;
+}
+._123-k {
+  color: #363031;
+  text-align: left;
+  font-family: "Poppins-SemiBold";
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+}
+.frame-14286 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.coffee3 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 73px;
+  top: 6px;
+  overflow: visible;
+}
+._58 {
+  color: #363031;
+  text-align: left;
+  font-family: "Poppins-SemiBold";
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+}
+
