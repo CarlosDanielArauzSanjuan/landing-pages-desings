@@ -1,0 +1,214 @@
+@import url(page19-variables.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+  background: #ffffff;
+  flex-shrink: 0;
+  height: 1131px;
+  position: relative;
+  overflow: hidden;
+}
+.content-top {
+  background: #f2f2f2;
+  width: 1440px;
+  height: 813px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 131px;
+  top: 181px;
+}
+.a-place-you-eat-healthy {
+  color: #252525;
+  text-align: left;
+  font-family: "Avenir-Heavy";
+  font-size: 72px;
+  line-height: 94px;
+  font-weight: 400;
+  position: relative;
+  width: 422px;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-faucibus-in-libero-risus-semper-habitant-arcu-eget-et-integer-facilisi-eget-lorem-ipsum-dolor {
+  color: #252525;
+  text-align: left;
+  font-family: "Avenir-Roman";
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  width: 483px;
+}
+.primary-button {
+  background: #252525;
+  border-radius: 36px;
+  padding: 24px 48px 24px 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.contact-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Avenir-Roman";
+  font-size: 24px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.unsplash-yhc-4-p-sbl-01-a {
+  width: 690.11px;
+  height: 671px;
+  position: absolute;
+  left: 686px;
+  top: 86px;
+  object-fit: cover;
+}
+.images {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-18 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 144px;
+  width: 200px;
+  height: 369px;
+  position: absolute;
+  left: 115px;
+  top: 698px;
+  object-fit: cover;
+}
+.rectangle-19 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 144px;
+  width: 200px;
+  height: 369px;
+  position: absolute;
+  left: 339px;
+  top: 698px;
+  object-fit: cover;
+}
+.rectangle-20 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 144px;
+  width: 200px;
+  height: 369px;
+  position: absolute;
+  left: 563px;
+  top: 698px;
+  object-fit: cover;
+}
+.image-and-text-bottom-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 843px;
+  top: 830px;
+}
+.frame-14265 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-14269 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-21 {
+  background: #252525;
+  flex-shrink: 0;
+  width: 52px;
+  height: 6px;
+  position: relative;
+}
+.chef-abc {
+  color: #252525;
+  text-align: left;
+  font-family: "Avenir-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-faucibus-in-libero-risus-semper {
+  color: rgba(37, 37, 37, 0.8);
+  text-align: left;
+  font-family: "Avenir-Roman";
+  font-size: 22px;
+  font-weight: 400;
+  position: relative;
+  width: 483px;
+}
+.frame-14266 {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-3 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  object-fit: cover;
+}
+.ellipse-4 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  object-fit: cover;
+}
+.ellipse-5 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  object-fit: cover;
+}
+.ellipse-6 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  object-fit: cover;
+}
